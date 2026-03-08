@@ -1,0 +1,35 @@
+{
+  "name": "swipe-quiz-format",
+  "version": "0.1.0",
+  "description": "App name + question JSON だけで使えるスワイプ式クイズUIライブラリ",
+  "type": "module",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "dependencies": {
+    "lucide-react": "^0.542.0"
+  },
+  "devDependencies": {
+    "tsup": "^8.2.4",
+    "typescript": "^5.6.2"
+  },
+  "keywords": [
+    "quiz",
+    "swipe",
+    "react",
+    "learning",
+    "flashcard"
+  ],
+  "license": "MIT"
+}
