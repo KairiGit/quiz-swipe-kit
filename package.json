@@ -11,7 +11,8 @@
   ],
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts",
-    "dev": "tsup src/index.ts --format esm,cjs --dts --watch"
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
+    "prepare": "npm run build"
   },
   "peerDependencies": {
     "react": ">=18",
@@ -21,6 +22,8 @@
     "lucide-react": "^0.542.0"
   },
   "devDependencies": {
+    "@types/react": "^18.3.23",
+    "@types/react-dom": "^18.3.7",
     "tsup": "^8.2.4",
     "typescript": "^5.6.2"
   },
