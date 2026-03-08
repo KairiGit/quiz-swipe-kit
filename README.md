@@ -4,9 +4,11 @@
 
 ## サンプル画面
 
-<image width="32%" src="public/default.jpg" alt="デフォルト画面" />
-<image width="32%" src="public/fail.jpg" alt="不正解画面" />
-<image width="32%" src="public/correct.jpg" alt="正解画面" />
+<p align="center">
+  <img width="24%" src="public/default.jpg" alt="デフォルト画面" />
+  <img width="24%" src="public/fail.jpg" alt="不正解画面" />
+  <img width="24%" src="public/correct.jpg" alt="正解画面" />
+</p>
 
 ## 目的
 
